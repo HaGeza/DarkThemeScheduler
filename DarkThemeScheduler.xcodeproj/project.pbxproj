@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EEA285A2C8C9F4D00ECF1A0 /* DarkThemeSchedulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA28592C8C9F4D00ECF1A0 /* DarkThemeSchedulerApp.swift */; };
+		5EEA285C2C8C9F4D00ECF1A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA285B2C8C9F4D00ECF1A0 /* ContentView.swift */; };
+		5EEA285E2C8C9F4E00ECF1A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EEA285D2C8C9F4E00ECF1A0 /* Assets.xcassets */; };
+		5EEA28612C8C9F4E00ECF1A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EEA28602C8C9F4E00ECF1A0 /* Preview Assets.xcassets */; };
+		5EEA286C2C8C9F4E00ECF1A0 /* DarkThemeSchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA286B2C8C9F4E00ECF1A0 /* DarkThemeSchedulerTests.swift */; };
+		5EEA28762C8C9F4E00ECF1A0 /* DarkThemeSchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA28752C8C9F4E00ECF1A0 /* DarkThemeSchedulerUITests.swift */; };
+		5EEA28782C8C9F4E00ECF1A0 /* DarkThemeSchedulerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA28772C8C9F4E00ECF1A0 /* DarkThemeSchedulerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EEA28682C8C9F4E00ECF1A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EEA284E2C8C9F4D00ECF1A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EEA28552C8C9F4D00ECF1A0;
+			remoteInfo = DarkThemeScheduler;
+		};
+		5EEA28722C8C9F4E00ECF1A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EEA284E2C8C9F4D00ECF1A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EEA28552C8C9F4D00ECF1A0;
+			remoteInfo = DarkThemeScheduler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EEA28562C8C9F4D00ECF1A0 /* DarkThemeScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkThemeScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEA28592C8C9F4D00ECF1A0 /* DarkThemeSchedulerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkThemeSchedulerApp.swift; sourceTree = "<group>"; };
+		5EEA285B2C8C9F4D00ECF1A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5EEA285D2C8C9F4E00ECF1A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EEA28602C8C9F4E00ECF1A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5EEA28622C8C9F4E00ECF1A0 /* DarkThemeScheduler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DarkThemeScheduler.entitlements; sourceTree = "<group>"; };
+		5EEA28672C8C9F4E00ECF1A0 /* DarkThemeSchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkThemeSchedulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEA286B2C8C9F4E00ECF1A0 /* DarkThemeSchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkThemeSchedulerTests.swift; sourceTree = "<group>"; };
+		5EEA28712C8C9F4E00ECF1A0 /* DarkThemeSchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkThemeSchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEA28752C8C9F4E00ECF1A0 /* DarkThemeSchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkThemeSchedulerUITests.swift; sourceTree = "<group>"; };
+		5EEA28772C8C9F4E00ECF1A0 /* DarkThemeSchedulerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkThemeSchedulerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EEA28532C8C9F4D00ECF1A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEA28642C8C9F4E00ECF1A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEA286E2C8C9F4E00ECF1A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EEA284D2C8C9F4D00ECF1A0 = {
+			isa = PBXGroup;
+			children = (
+				5EEA28582C8C9F4D00ECF1A0 /* DarkThemeScheduler */,
+				5EEA286A2C8C9F4E00ECF1A0 /* DarkThemeSchedulerTests */,
+				5EEA28742C8C9F4E00ECF1A0 /* DarkThemeSchedulerUITests */,
+				5EEA28572C8C9F4D00ECF1A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EEA28572C8C9F4D00ECF1A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EEA28562C8C9F4D00ECF1A0 /* DarkThemeScheduler.app */,
+				5EEA28672C8C9F4E00ECF1A0 /* DarkThemeSchedulerTests.xctest */,
+				5EEA28712C8C9F4E00ECF1A0 /* DarkThemeSchedulerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EEA28582C8C9F4D00ECF1A0 /* DarkThemeScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				5EEA28592C8C9F4D00ECF1A0 /* DarkThemeSchedulerApp.swift */,
+				5EEA285B2C8C9F4D00ECF1A0 /* ContentView.swift */,
+				5EEA285D2C8C9F4E00ECF1A0 /* Assets.xcassets */,
+				5EEA28622C8C9F4E00ECF1A0 /* DarkThemeScheduler.entitlements */,
+				5EEA285F2C8C9F4E00ECF1A0 /* Preview Content */,
+			);
+			path = DarkThemeScheduler;
+			sourceTree = "<group>";
+		};
+		5EEA285F2C8C9F4E00ECF1A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5EEA28602C8C9F4E00ECF1A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5EEA286A2C8C9F4E00ECF1A0 /* DarkThemeSchedulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EEA286B2C8C9F4E00ECF1A0 /* DarkThemeSchedulerTests.swift */,
+			);
+			path = DarkThemeSchedulerTests;
+			sourceTree = "<group>";
+		};
+		5EEA28742C8C9F4E00ECF1A0 /* DarkThemeSchedulerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EEA28752C8C9F4E00ECF1A0 /* DarkThemeSchedulerUITests.swift */,
+				5EEA28772C8C9F4E00ECF1A0 /* DarkThemeSchedulerUITestsLaunchTests.swift */,
+			);
+			path = DarkThemeSchedulerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EEA28552C8C9F4D00ECF1A0 /* DarkThemeScheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EEA287B2C8C9F4E00ECF1A0 /* Build configuration list for PBXNativeTarget "DarkThemeScheduler" */;
+			buildPhases = (
+				5EEA28522C8C9F4D00ECF1A0 /* Sources */,
+				5EEA28532C8C9F4D00ECF1A0 /* Frameworks */,
+				5EEA28542C8C9F4D00ECF1A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkThemeScheduler;
+			productName = DarkThemeScheduler;
+			productReference = 5EEA28562C8C9F4D00ECF1A0 /* DarkThemeScheduler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EEA28662C8C9F4E00ECF1A0 /* DarkThemeSchedulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EEA287E2C8C9F4E00ECF1A0 /* Build configuration list for PBXNativeTarget "DarkThemeSchedulerTests" */;
+			buildPhases = (
+				5EEA28632C8C9F4E00ECF1A0 /* Sources */,
+				5EEA28642C8C9F4E00ECF1A0 /* Frameworks */,
+				5EEA28652C8C9F4E00ECF1A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EEA28692C8C9F4E00ECF1A0 /* PBXTargetDependency */,
+			);
+			name = DarkThemeSchedulerTests;
+			productName = DarkThemeSchedulerTests;
+			productReference = 5EEA28672C8C9F4E00ECF1A0 /* DarkThemeSchedulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EEA28702C8C9F4E00ECF1A0 /* DarkThemeSchedulerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EEA28812C8C9F4E00ECF1A0 /* Build configuration list for PBXNativeTarget "DarkThemeSchedulerUITests" */;
+			buildPhases = (
+				5EEA286D2C8C9F4E00ECF1A0 /* Sources */,
+				5EEA286E2C8C9F4E00ECF1A0 /* Frameworks */,
+				5EEA286F2C8C9F4E00ECF1A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EEA28732C8C9F4E00ECF1A0 /* PBXTargetDependency */,
+			);
+			name = DarkThemeSchedulerUITests;
+			productName = DarkThemeSchedulerUITests;
+			productReference = 5EEA28712C8C9F4E00ECF1A0 /* DarkThemeSchedulerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EEA284E2C8C9F4D00ECF1A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5EEA28552C8C9F4D00ECF1A0 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					5EEA28662C8C9F4E00ECF1A0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5EEA28552C8C9F4D00ECF1A0;
+					};
+					5EEA28702C8C9F4E00ECF1A0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5EEA28552C8C9F4D00ECF1A0;
+					};
+				};
+			};
+			buildConfigurationList = 5EEA28512C8C9F4D00ECF1A0 /* Build configuration list for PBXProject "DarkThemeScheduler" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EEA284D2C8C9F4D00ECF1A0;
+			productRefGroup = 5EEA28572C8C9F4D00ECF1A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EEA28552C8C9F4D00ECF1A0 /* DarkThemeScheduler */,
+				5EEA28662C8C9F4E00ECF1A0 /* DarkThemeSchedulerTests */,
+				5EEA28702C8C9F4E00ECF1A0 /* DarkThemeSchedulerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EEA28542C8C9F4D00ECF1A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEA28612C8C9F4E00ECF1A0 /* Preview Assets.xcassets in Resources */,
+				5EEA285E2C8C9F4E00ECF1A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEA28652C8C9F4E00ECF1A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEA286F2C8C9F4E00ECF1A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EEA28522C8C9F4D00ECF1A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEA285C2C8C9F4D00ECF1A0 /* ContentView.swift in Sources */,
+				5EEA285A2C8C9F4D00ECF1A0 /* DarkThemeSchedulerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEA28632C8C9F4E00ECF1A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEA286C2C8C9F4E00ECF1A0 /* DarkThemeSchedulerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEA286D2C8C9F4E00ECF1A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEA28782C8C9F4E00ECF1A0 /* DarkThemeSchedulerUITestsLaunchTests.swift in Sources */,
+				5EEA28762C8C9F4E00ECF1A0 /* DarkThemeSchedulerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EEA28692C8C9F4E00ECF1A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EEA28552C8C9F4D00ECF1A0 /* DarkThemeScheduler */;
+			targetProxy = 5EEA28682C8C9F4E00ECF1A0 /* PBXContainerItemProxy */;
+		};
+		5EEA28732C8C9F4E00ECF1A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EEA28552C8C9F4D00ECF1A0 /* DarkThemeScheduler */;
+			targetProxy = 5EEA28722C8C9F4E00ECF1A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5EEA28792C8C9F4E00ECF1A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EEA287A2C8C9F4E00ECF1A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5EEA287C2C8C9F4E00ECF1A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DarkThemeScheduler/DarkThemeScheduler.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DarkThemeScheduler/Preview Content\"";
+				DEVELOPMENT_TEAM = 66RCPY8XRD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HaGeza.DarkThemeScheduler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5EEA287D2C8C9F4E00ECF1A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DarkThemeScheduler/DarkThemeScheduler.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DarkThemeScheduler/Preview Content\"";
+				DEVELOPMENT_TEAM = 66RCPY8XRD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HaGeza.DarkThemeScheduler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5EEA287F2C8C9F4E00ECF1A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66RCPY8XRD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HaGeza.DarkThemeSchedulerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkThemeScheduler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DarkThemeScheduler";
+			};
+			name = Debug;
+		};
+		5EEA28802C8C9F4E00ECF1A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66RCPY8XRD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HaGeza.DarkThemeSchedulerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkThemeScheduler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DarkThemeScheduler";
+			};
+			name = Release;
+		};
+		5EEA28822C8C9F4E00ECF1A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66RCPY8XRD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HaGeza.DarkThemeSchedulerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DarkThemeScheduler;
+			};
+			name = Debug;
+		};
+		5EEA28832C8C9F4E00ECF1A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66RCPY8XRD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HaGeza.DarkThemeSchedulerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DarkThemeScheduler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EEA28512C8C9F4D00ECF1A0 /* Build configuration list for PBXProject "DarkThemeScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEA28792C8C9F4E00ECF1A0 /* Debug */,
+				5EEA287A2C8C9F4E00ECF1A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EEA287B2C8C9F4E00ECF1A0 /* Build configuration list for PBXNativeTarget "DarkThemeScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEA287C2C8C9F4E00ECF1A0 /* Debug */,
+				5EEA287D2C8C9F4E00ECF1A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EEA287E2C8C9F4E00ECF1A0 /* Build configuration list for PBXNativeTarget "DarkThemeSchedulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEA287F2C8C9F4E00ECF1A0 /* Debug */,
+				5EEA28802C8C9F4E00ECF1A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EEA28812C8C9F4E00ECF1A0 /* Build configuration list for PBXNativeTarget "DarkThemeSchedulerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEA28822C8C9F4E00ECF1A0 /* Debug */,
+				5EEA28832C8C9F4E00ECF1A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EEA284E2C8C9F4D00ECF1A0 /* Project object */;
+}
