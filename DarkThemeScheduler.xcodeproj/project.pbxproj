@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E33EEB32C8DDC8E00EED139 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E33EEB22C8DDC8E00EED139 /* Schedule.swift */; };
+		5E33EEB52C8DDCBE00EED139 /* ThemeSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E33EEB42C8DDCBE00EED139 /* ThemeSelection.swift */; };
+		5E33EEB72C8DDCF600EED139 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E33EEB62C8DDCF600EED139 /* ThemeManager.swift */; };
+		5E33EEB92C8DE3D000EED139 /* ThemeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E33EEB82C8DE3D000EED139 /* ThemeViewModel.swift */; };
+		5E33EEBB2C8DEC8100EED139 /* ThemeChangeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E33EEBA2C8DEC8100EED139 /* ThemeChangeError.swift */; };
+		5EDE3B972C8DFC1800005A87 /* UIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDE3B962C8DFC1800005A87 /* UIError.swift */; };
 		5EEA285A2C8C9F4D00ECF1A0 /* DarkThemeSchedulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA28592C8C9F4D00ECF1A0 /* DarkThemeSchedulerApp.swift */; };
 		5EEA285C2C8C9F4D00ECF1A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA285B2C8C9F4D00ECF1A0 /* ContentView.swift */; };
 		5EEA285E2C8C9F4E00ECF1A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EEA285D2C8C9F4E00ECF1A0 /* Assets.xcassets */; };
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E33EEB22C8DDC8E00EED139 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		5E33EEB42C8DDCBE00EED139 /* ThemeSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSelection.swift; sourceTree = "<group>"; };
+		5E33EEB62C8DDCF600EED139 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		5E33EEB82C8DE3D000EED139 /* ThemeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeViewModel.swift; sourceTree = "<group>"; };
+		5E33EEBA2C8DEC8100EED139 /* ThemeChangeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangeError.swift; sourceTree = "<group>"; };
+		5EDE3B962C8DFC1800005A87 /* UIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIError.swift; sourceTree = "<group>"; };
 		5EEA28562C8C9F4D00ECF1A0 /* DarkThemeScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkThemeScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEA28592C8C9F4D00ECF1A0 /* DarkThemeSchedulerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkThemeSchedulerApp.swift; sourceTree = "<group>"; };
 		5EEA285B2C8C9F4D00ECF1A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +84,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E33EEAD2C8DDA8000EED139 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5E33EEB62C8DDCF600EED139 /* ThemeManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5E33EEAE2C8DDA9100EED139 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5E33EEB22C8DDC8E00EED139 /* Schedule.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5E33EEAF2C8DDAB300EED139 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5EEA285B2C8C9F4D00ECF1A0 /* ContentView.swift */,
+				5EDE3B962C8DFC1800005A87 /* UIError.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E33EEB02C8DDAB900EED139 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5E33EEB42C8DDCBE00EED139 /* ThemeSelection.swift */,
+				5E33EEB82C8DE3D000EED139 /* ThemeViewModel.swift */,
+				5E33EEBA2C8DEC8100EED139 /* ThemeChangeError.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5E33EEB12C8DDADD00EED139 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EEA285D2C8C9F4E00ECF1A0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		5EEA284D2C8C9F4D00ECF1A0 = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +150,12 @@
 		5EEA28582C8C9F4D00ECF1A0 /* DarkThemeScheduler */ = {
 			isa = PBXGroup;
 			children = (
+				5E33EEB12C8DDADD00EED139 /* Resources */,
+				5E33EEB02C8DDAB900EED139 /* ViewModels */,
+				5E33EEAF2C8DDAB300EED139 /* Views */,
+				5E33EEAE2C8DDA9100EED139 /* Models */,
+				5E33EEAD2C8DDA8000EED139 /* Services */,
 				5EEA28592C8C9F4D00ECF1A0 /* DarkThemeSchedulerApp.swift */,
-				5EEA285B2C8C9F4D00ECF1A0 /* ContentView.swift */,
-				5EEA285D2C8C9F4E00ECF1A0 /* Assets.xcassets */,
 				5EEA28622C8C9F4E00ECF1A0 /* DarkThemeScheduler.entitlements */,
 				5EEA285F2C8C9F4E00ECF1A0 /* Preview Content */,
 			);
@@ -259,7 +317,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EDE3B972C8DFC1800005A87 /* UIError.swift in Sources */,
+				5E33EEB32C8DDC8E00EED139 /* Schedule.swift in Sources */,
+				5E33EEB52C8DDCBE00EED139 /* ThemeSelection.swift in Sources */,
+				5E33EEB72C8DDCF600EED139 /* ThemeManager.swift in Sources */,
 				5EEA285C2C8C9F4D00ECF1A0 /* ContentView.swift in Sources */,
+				5E33EEBB2C8DEC8100EED139 /* ThemeChangeError.swift in Sources */,
+				5E33EEB92C8DE3D000EED139 /* ThemeViewModel.swift in Sources */,
 				5EEA285A2C8C9F4D00ECF1A0 /* DarkThemeSchedulerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
